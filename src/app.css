@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+
+@layer base{
+  @font-face {
+    font-family: 'SansExtraBold';
+    src: url("./PlusJakartaSans-ExtraBold.ttf");
+  }
+  
+  @font-face {
+    font-family: 'SansMed';
+    src: url("./PlusJakartaSans-Medium.ttf");
+  }
+}
